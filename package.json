@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:test:all": "npx cypress run",
+    "cy:test:spec": "npx cypress run --spec cypress/e2e/visit_login_addToChart.cy.js"
+  }
+}
