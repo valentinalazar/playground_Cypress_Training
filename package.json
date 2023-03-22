@@ -1,7 +1,20 @@
+
 {
+  "name": "trainingArobs",
+  "version": "1.0.0",
+  "description": "Cypress Automation Training Program by Arobs",
+  "main": "index.js",
   "scripts": {
-    "cy:open": "npx cypress open",
+    "c:open": "npx cypress open",
     "cy:test:all": "npx cypress run",
-    "cy:test:spec": "npx cypress run --spec cypress/e2e/visit_login_addToChart.cy.js"
+    "cy:test:spec": "npx cypress run - - spec cypress/e2e/tutorialsNinja/homepage.cy.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Lazar Valentina",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1"
   }
 }
