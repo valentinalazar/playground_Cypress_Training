@@ -6,10 +6,10 @@
   "scripts": {
     "c:open": "npx cypress open",
     "cy:test:all": "npx cypress run",
-    "cy:test:spec": "npx cypress run - - spec cypress/e2e/tutorialsNinja/homepage.cy.js",
-    "cy:test:todo:example":  "npx cypress run - - spec cypress/e2e/1-getting-started/homepage.cy.js",
-    "cy:test:actions:locations": "npx cypress run - - spec cypress/e2e/2-advanced-examples/actions.cy.js,cypress/e2e/2-advanced-examples/location.cy.js",
-    "cy:test:advanced:examples": "npx cypress run - - spec cypress/e2e/2-advanced-examples/actions.cy.js,cypress/e2e/2-advanced-examples/**/*"
+    "cy:test:spec": "npx cypress run --spec cypress/e2e/tutorialsNinja/homepage.cy.js",
+    "cy:test:todo:example":  "npx cypress run --spec cypress/e2e/1-getting-started/todo.cy.js",
+    "cy:test:actions:locations": "npx cypress run --spec cypress/e2e/2-advanced-examples/actions.cy.js,cypress/e2e/2-advanced-examples/location.cy.js",
+    "cy:test:advanced:examples": "npx cypress run --spec cypress/e2e/2-advanced-examples/actions.cy.js,cypress/e2e/2-advanced-examples/**/*"
   },
   "keywords": [
     "cypress"
