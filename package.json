@@ -22,6 +22,8 @@
   "author": "Lazar Valentina",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/skip-test": "^2.6.1",
+    "cy-verify-downloads": "^0.1.14",
     "cypress": "^12.8.1",
     "cypress-file-upload": "^5.0.8"
   }
