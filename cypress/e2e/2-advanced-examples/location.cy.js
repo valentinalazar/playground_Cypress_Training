@@ -1,10 +1,9 @@
 /// <reference types="cypress" />
-
+const { locationPage } = Cypress.config()
 context('Location', () => {
   beforeEach(() => {
-    cy.visit('https://example.cypress.io/commands/location')
+    cy.visit(locationPage);
   })
-
   it('cy.hash() - get the current URL hash', () => {
     // https://on.cypress.io/hash
     cy.hash().should('be.empty')

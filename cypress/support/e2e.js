@@ -17,5 +17,6 @@
 import './commands'
 require('cy-verify-downloads').addCustomCommand();
 require('@cypress/skip-test/support');
+import 'cypress-mochawesome-reporter/register';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
