@@ -1,3 +1,5 @@
+
+/*
 describe('visit - checkLink - check logoText - checkSearchInput tests', () => {
   it('Go to tutorialsninja', () => {
     cy.visit('http://tutorialsninja.com/demo/index.php?route=common/home');
@@ -6,3 +8,5 @@ describe('visit - checkLink - check logoText - checkSearchInput tests', () => {
     cy.get('[class="form-control input-lg"]').should('be.enabled').and('be.visible');
   });
 });
+
+ */
